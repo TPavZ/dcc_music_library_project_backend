@@ -57,5 +57,5 @@ class SongLikes(APIView):
         except Song.DoesNotExist:
             raise Http404
 
-    def idk():
+    def like(self, request, pk):
         pass
