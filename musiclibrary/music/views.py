@@ -21,3 +21,17 @@ class SongList(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class SongDetails(APIView):
+
+    def get_object():
+        pass
+
+    def get():
+        pass
+
+    def put():
+        pass
+
+    def delete():
+        pass
